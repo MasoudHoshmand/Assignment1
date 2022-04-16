@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Web Page!</title>
     <link rel="stylesheet" href="style.css" media="screen" />
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)" />
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)" />
@@ -12,17 +11,42 @@
 
 <body id="clicked">
     <header>
-        Welcome!
+        <a href="#clicked" class="on shownav"></a>
+        <a href="#" class="off">X</a>
+        <h1>Heading</h1>
+
     </header>
-    
-    <p>
-        Hello World
-    </p>
-    
-</body>
 
-<footer>
-    &copy; Masoud Hoshmand 2022
-</footer>
+    <nav>
+        <ul>
+            <li>Menu item 1
+                <ul>
+                    <li>Submenu item 1.1</li>
+                    <li>Submenu item 1.2</li>
+                    <li>Submenu item 1.3</li>
+                </ul>
+            </li>
+            <li>Menu item 2
+                <ul>
+                    <li>Submenu item 2.1</li>
+                    <li>Submenu item 2.2</li>
+                    <li>Submenu item 2.3</li>
+                </ul>
+            </li>
+            <li>Menu Item 3</li>
+        </ul>
+    </nav>
 
-</html>
+    <main>
+        <p>Lorem ipsum....</p>
+    </main>
+
+    <aside>
+        Right hand side
+    </aside>
+
+    <footer>
+        &copy; Masoud Hoshmand 2020
+    </footer>
+
+</body  
